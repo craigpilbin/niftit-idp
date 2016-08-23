@@ -1,0 +1,31 @@
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+    	.navbar { border-bottom: 1px solid red; }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    	.navbar { border-bottom: 1px solid blue; }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	.navbar { border-bottom: 1px solid green; }
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+    	.navbar { border-bottom: 1px solid yellow; }
+      
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+        .navbar { border-bottom: 1px solid pink; }
+    }
